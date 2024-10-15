@@ -1,6 +1,6 @@
 # renovate-semantic-commit-repro
 
-> This repo contains the repro for this discussion: ###
+> This repo contains the repro for this discussion: https://github.com/renovatebot/renovate/discussions/31973
 
 ## What it contains
 
@@ -30,4 +30,4 @@ When Renovate opens PRs bumping `lodash` and `ramda`, it uses different commit p
 - `lodash` gets the `chore` prefix because it is listed under `devDependencies` in `pkg-b`.
 - `ramda` gets the `fix` prefix because it is listed under `dependencies.` in `pkg-b`.
 
-I'd imagine both of the PRs should have the `fix` prefix, since both these dependencies are listed as under `dependencies` for at least 1 of the packages within the monorepo.
+I'd imagine both of the PRs should have the `fix` prefix, since both these dependencies are listed under `dependencies` for at least 1 of the packages within the monorepo.
