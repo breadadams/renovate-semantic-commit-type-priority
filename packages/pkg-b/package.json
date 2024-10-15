@@ -1,6 +1,9 @@
 {
   "name": "pkg-b",
   "version": "1.0.0",
+  "dependencies": {
+    "ramda": "0.30.0"
+  },
   "devDependencies": {
     "lodash": "4.17.20"
   }
