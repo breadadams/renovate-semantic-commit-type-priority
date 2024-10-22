@@ -5,6 +5,6 @@
     "lodash": "4.17.20"
   },
   "devDependencies": {
-    "ramda": "0.30.0"
+    "ramda": "0.30.1"
   }
 }
